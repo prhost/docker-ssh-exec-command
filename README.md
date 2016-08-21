@@ -26,5 +26,5 @@ docker run --rm \
 	-e SSHEXEC_USERNAME=username \
 	-e SSHEXEC_PORT=22 \
 	-e SSHEXEC_SCRIPT="ls -la" \
-prhost/ssh-exec
+prhost/ssh-exec-command
 ```
