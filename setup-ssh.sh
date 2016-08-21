@@ -54,9 +54,8 @@ if [ "$failed" == "true" ] ; then
   exit 1
 fi
 
-
 echo "Created DEPLOY_SHH $DEPLOY_SSH"
 
-echo "$DEPLOY_SSH $SSHEXEC_SCRIPT"
+echo "Running command: $SSHEXEC_SCRIPT"
 
 $DEPLOY_SSH "($SSHEXEC_SCRIPT)"
