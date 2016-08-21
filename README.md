@@ -2,15 +2,21 @@
 
 Run commands remotely via ssh.
 
-`$SSHEXEC_HOST` = host server (required)
+[Docker Hub](https://hub.docker.com/r/prhost/ssh-exec-command/)
 
-`$SSHEXEC_PRIVATE_KEY` = private sshkey access
 
-`$SSHEXEC_USERNAME` username (default user root)
+`docker pull prhost/ssh-exec-command`
 
-`$SSHEXEC_PORT` = (default port 22)
 
-`$SSHEXEC_SCRIPT` = shell command to be executed
+`SSHEXEC_HOST` = host server (required)
+
+`SSHEXEC_PRIVATE_KEY` = private sshkey access
+
+`SSHEXEC_USERNAME` username (default user root)
+
+`SSHEXEC_PORT` = (default port 22)
+
+`SSHEXEC_SCRIPT` = shell command to be executed
 
 
 ```
